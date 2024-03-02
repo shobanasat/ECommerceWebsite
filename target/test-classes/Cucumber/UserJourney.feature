@@ -4,7 +4,7 @@ Feature: Ecommerce Website E2E Journey Flows
   Background: 
   Given I have landed in the application
 
-  @Regression
+  @Positive
   Scenario Outline: Positive E2E Journey Flow
     Given I have logged in using username <name> and password <pwd>
     When I select product <productName> and add to cart
@@ -14,3 +14,4 @@ Feature: Ecommerce Website E2E Journey Flows
     Examples: 
       | name                          | pwd       | productName     |
       | shobanasathyanathan@gmail.com | Shobikr@1 | ADIDAS ORIGINAL |
+      
